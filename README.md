@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # vue-resumer
 vue制作的简历生成工具
 
@@ -27,3 +28,6 @@ npm test
 ```
 
 
+=======
+# vue-rsumer
+>>>>>>> e61cf1112ef8c3014ee3fb604ed1a7a2bbb8d155

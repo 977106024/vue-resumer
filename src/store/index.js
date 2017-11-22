@@ -21,20 +21,14 @@ export default new Vuex.Store({
     			{field:'contacts',icon:'phone'},
     		],
     		profile:{
-    			name:'姓名',
-    			city:'城市',
-    			title:'标题?',
-    			birthday:'生日'
+    			name:'吴柏宏',
+    			city:'武汉',
+    			title:'前端工程师',
+    			birthday:'1994.07'
     		},
     		workHistory: [
-            { company: '神盾局', contents: `我的第一份工作是保护地球
-				2.啊实打实大
-				3.啥时打算打算
-				4.啊实打实大`},
-            { company: '复仇者联盟', contents: `我的第二份工作是毁灭地球
-            2.
-            3.
-            4.`},
+            { company: '武汉齐峰', contents: `seo优化`},
+            { company: '复仇者联盟', contents: `保存地球`},
 
           ],
           education: [
@@ -42,16 +36,16 @@ export default new Vuex.Store({
             { school: '热血高校', content: '文字' },
           ],
           projects: [
-            { name: 'project A', contents: '文字' },
-            { name: 'project B', contents: '文字' },
+            { name: '非官方网易云音乐', contents: '歌曲播放、歌词滚动、搜索曲库' },
+            { name: 'todolist', contents: '登陆注册、数据保存' },
           ],
           awards: [
             { name: 'awards A', content: '文字' },
             { name: 'awards B', content: '文字' },
           ],
           contacts: [
-            { contact: 'phone', content: '13812345678' },
-            { contact: 'qq', content: '12345678' },
+            { contact: 'phone', content: '18071525633' },
+            { contact: 'qq', content: '977106024' },
           ],
     	}
   },
@@ -75,7 +69,7 @@ export default new Vuex.Store({
     removeUser(state){
       state.user.id=null
     },
-    //暂时想到这种笨办法..= =
+    //暂时想到这种
     removeList(state,payload){
       let {subitem,i} = payload;
       switch(subitem){

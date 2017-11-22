@@ -83,14 +83,18 @@ export default {
 
 <style lang="scss" scoped>
 #ResumePreview{ background:white; box-shadow:0 1px 3px 0 rgba(0,0,0,0.25); padding: 2em;
-    color: #333; line-height: 1.2; overflow: auto;
+    color: #333; line-height: 1.2;
     * {box-sizing: border-box; font-variant: normal; font-weight: normal;}
     ol{ list-style: none; }
     section + section{ margin-top: 2em; }
     p{ white-space: pre-line; }
     section {
-      > h2:first-child{ background: #ddd; display: inline-block; padding: .2em;
+      > h2:first-child{
+        display: inline-block;
+        padding: .2em;
         margin-bottom: .5em;
+        color: rgb(37,70,121);
+        font-weight: 600;
       }
     }
     section[data-name="profile"]{

@@ -81,15 +81,15 @@ export default {
 
 <style lang="scss" scoped>
   #ResumeEditor{
-    background:#ffffff;
+    background:rgb(37,70,121);
     box-shadow:0 1px 3px 0 rgba(0,0,0,0.25);
     display: flex;
     flex-direction: row;
     overflow: auto;
     > nav{
       width: 80px;
-      background: black;
       color: white;
+			border-right: 1px solid #fff;
       > ol {
         > li{
           height: 48px;
@@ -123,6 +123,8 @@ export default {
   .resumeField{
   	>label{
   		display:block;
+			color: #fff;
+			padding-top: 20px;
   	}
   	input[type=text]{
   		margin:20px 0;

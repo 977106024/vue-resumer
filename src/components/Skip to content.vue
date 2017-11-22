@@ -1,21 +1,3 @@
-Skip to content
-This repository
-Search
-Pull requests
-Issues
-Gist
- @raszxcv
- Sign out
- Watch 8
-  Star 28
- Fork 6 jirengu-inc/jrg-project-5
- Code  Issues 7  Pull requests 0  Projects 0  Wiki  Pulse  Graphs
-Tree: d0a57a21fa Find file Copy pathjrg-project-5/resumer/src/components/ResumeEditor.vue
-d0a57a2  6 hours ago
-@FrankFang FrankFang 使用 SVG 图标
-1 contributor
-RawBlameHistory     
-85 lines (83 sloc)  1.88 KB
 <template>
   <div id="resumeEditor">
     <nav>

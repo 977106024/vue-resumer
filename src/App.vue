@@ -51,10 +51,9 @@ export default {
 
 #page {
   min-width:1024px;
-  height: 100vh;
   display: flex;
   flex-direction:column;
-  background: #EAEBEC;
+  background: rgb(0,192,145);
   >main{
     flex-grow:1;
   }
@@ -65,19 +64,19 @@ export default {
     margin-bottom: 16px;
     display: flex;
     justify-content: space-between;
-    padding: 0 16px;
+    padding: 0 180px;
     width: 100%;
     align-self: center;
   }
 }
 #ResumeEditor{
-  min-width: 35%;
+  min-width: 37%;
   background: #444;
 }
 #ResumePreview{
   background: #777;
   flex-grow: 1;
-  margin-left:16px;
+  margin-left:0px;
 }
   svg.icon{
     height: 1em;

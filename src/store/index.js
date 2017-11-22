@@ -32,7 +32,7 @@ export default new Vuex.Store({
 
           ],
           education: [
-            { school: '加里敦', content: '吃喝玩乐' },
+            { school: '武汉科技职业学校', content: '计算机应用' },
             { school: '热血高校', content: '文字' },
           ],
           projects: [
@@ -40,12 +40,12 @@ export default new Vuex.Store({
             { name: 'todolist', contents: '登陆注册、数据保存' },
           ],
           awards: [
-            { name: 'awards A', content: '文字' },
+            { name: '请在这输入获奖情况...', content: '描述...' },
             { name: 'awards B', content: '文字' },
           ],
           contacts: [
             { contact: 'phone', content: '18071525633' },
-            { contact: 'qq', content: '977106024' },
+            { contact: 'QQ', content: '977106024' },
           ],
     	}
   },

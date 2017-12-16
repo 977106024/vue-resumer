@@ -81,22 +81,25 @@ export default {
 
 <style lang="scss" scoped>
   #ResumeEditor{
-    background:rgb(37,70,121);
+    background:rgb(241,239,224);
     box-shadow:0 1px 3px 0 rgba(0,0,0,0.25);
     display: flex;
     flex-direction: row;
     overflow: auto;
+		margin-top: 10px;
     > nav{
       width: 80px;
       color: white;
 			border-right: 1px solid #fff;
+			background:rgb(32,33,38);
+			z-index: 1;
       > ol {
         > li{
-          height: 48px;
+          height: 63px;
           display: flex;
           justify-content: center;
           align-items: center;
-          margin-top: 16px;
+          // margin-top: 16px;
           margin-bottom: 16px;
           &.active{
             background: white;
@@ -107,8 +110,28 @@ export default {
     }
     > .panels{
     	flex-grow:1;
+			margin:20px;
+			margin-top: 20px;
+			// background: #fff;
     	>li{
-    		padding:24px;
+    		// padding:24px;
+				.subitem{
+					box-shadow: none;
+				}
+				.resumeField{
+					background:#fff;
+					padding: 0 12px;
+					margin-bottom: 18px;
+					box-shadow:1px 1px 5px rgba(0,0,0,0.4);
+				}
+				>div{
+
+					>div{
+						padding: 0 12px;
+						margin-bottom: 18px;
+						box-shadow:0 1px 3px 0 rgba(0,0,0,0.4);
+					}
+				}
     	}
     }
     svg.icon{
@@ -123,13 +146,13 @@ export default {
   .resumeField{
   	>label{
   		display:block;
-			color: #fff;
+			color: #000;
 			padding-top: 20px;
   	}
   	input[type=text]{
   		margin:20px 0;
-  		border:1px solid #ddd;
-  		box-shadow:inset 0 1px 3px 0 rgba(0,0,0,0.25);
+  		border:1px dashed rgb(0,192,145);
+  		// box-shadow:inset 0 1px 3px 0 rgba(0,0,0,0.25);
   		width:100%;
   		height:40px;
   		padding:0 8px;
@@ -160,7 +183,7 @@ export default {
      transition: 0.5s;
    }
     >.add{
-        background:#00BFFF;
+        background:rgb(0,192,145);
      }
   >.add:hover{
      color:#000;

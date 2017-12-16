@@ -66,18 +66,30 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+@media(min-width:900px){
+  #topbar{
+    width: 709px;
+  }
+}
 #topbar{
-	background:#fff;
-	box-shadow:0 1px 3px 0 rgba(0,0,0,0.25);
+	// margin:0 215px;
+  min-width: 1024px;
+  max-width: 1440px;
+  position:absolute;
+  top: 80px;
+  left:181px;
 	>.wrapper{
-		min-width:1024px;
-		max-width:1440px;
+		// min-width:1024px;
+		// max-width:1440px;
 		margin:0 auto;
 		height:64px;
 		display: flex;
 		justify-content: space-between;
 		align-items:center;
-		padding:0 16px;
+		// padding:0 16px;
+    padding-left: 45px;
+    background:#fff;
+  	box-shadow:0 1px 3px 0 rgba(0,0,0,0.25);
 			>.logo{
 				font-size: 24px;
 				color:#000;
